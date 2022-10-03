@@ -12,10 +12,6 @@
 </div>
 
 <div class="topnav">
-  <a href="index.html">Beranda</a>
-  <a href="profil.html">Profil</a>
-  <a href="injil.html">Kabar Injil</a>
-  <a href="renungan.html">Renungan harian</a>
   <a href="verify.html" style="float:right">Verify</a>
 </div>
 
@@ -27,17 +23,42 @@
 <html>
 <body>
 
-<h2>isi forms dibawah</h2>
+<h2>Data Pribadi</h2><br>
+Identitas diri<br><br><br>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="..."><br><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="..."><br><br>
-  <label for="lname">Your Comment:</label><br>
-  <input type="text" id="lname" name="lname" value="Type some word here"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+<form action="index.html">
+  <label for="fname">Nama lengkap</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Nama Lengkap Mu"><br><br>
+  <label for="pwd">Password</label><br>
+  <input type="password" id="pwd" name="pwd" placeholder="Enter Your Password"><br><br>
+
+  <label for="birthday">Tanggal ulang tahun</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+
+  Jenis Kelamin<br>
+  <input type="radio" name="gender" value="laki- Laki">Laki Laki<br>
+<input type="radio" name="gender" value="Perempuan">Perempuan<br><br>
+
+ Jenis tempat tinggal
+ <select name="cars" id="cars">
+    <option value="Rumah">Rumah</option>
+    <option value="Ruko">Ruko</option>
+    <option value="Rusun">Rusun</option>
+    <option value="Kios">Kios</option><br><br>
+  </select>
+  
+  <p>Hobi <br>
+  <input type="checkbox" name="Hobi" value="Buku">
+  <label for="Hobi"> Baca buku</label><br>
+  <input type="checkbox" name="Hobi" value="Olahraga">
+  <label for="Hobi"> Olahraga</label><br>
+  <input type="checkbox" name="Hobi" value="Main Game">
+  <label for="Hobi"> Main Game</label><br><br></p>
+  
+  <input type="submit" value="submit">
+  <input type="reset">
+</form>
+ 
 	  </p>
     </div>
   </div>
@@ -45,16 +66,6 @@
     <div class="card">
       <h2>About Me</h2>
       <img src="img/karma.jpg" width="200">
-      <p><a href="profil.html" style="float:left">Baca Selengkapnya<br></a></p>
-    </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-	  <img src="img/salib.jpg" width="200">
-	 Renungan Singkat | <a href="injil.html" img src="img/daud.jpg" width="50">Salib Kristus</a><br>
-	 <img src="img/buta.jpg" width="200">
-     Kesaksian Iman | <a href="injil.html" img src="img/daud.jpg" width="50">Pentingnya Bersyukur</a><br>
-	  <img src="img/daud.jpg" width="200">
-     Kabar Injil | <a href="injil.html" img src="img/daud.jpg" width="50">Daud dan saul</a><br>
     </div>
     <div class="card">
       <h3>Ikuti Yesus</h3>
@@ -71,5 +82,3 @@
 
 </body>
 </html>
-
-
